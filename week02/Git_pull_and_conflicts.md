@@ -26,7 +26,7 @@ In Source Control, next to Commit, the button is a **sync** symbol (circular arr
 “Ahead” here does **not** mean a newer file timestamp. It means **one place has commits (saved snapshots) that the other place does not**.
 
 
-| What you see         | Meaning                                                                                                                                                                                      | What to do                                                                  |
+| What you see         | Meaning                                                                                                                                                                                      | What to do                                                                      |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | **↓ only**           | **GitHub has updates this Codespace has not downloaded yet.** Typical: you clicked **Sync fork** (the teacher’s new week is on GitHub first), or you uploaded / edited a file on github.com. | **Pull** (download into Codespace)                                          |
 | **↑ only**           | **This Codespace has commits GitHub does not.** You saved work here and have not uploaded it. GitHub still has the older copy.                                                               | **Push** (upload to your fork)                                              |
